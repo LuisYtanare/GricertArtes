@@ -1,0 +1,60 @@
+.header{
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 120px;
+}
+.logotipo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logotipo h1{
+    width: 100%;
+    color: white;
+    font-weight: 100;
+}
+.logotipo 
+p{
+    color: #1fff02;
+    font-weight: 100;
+
+}
+
+.callme {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex;
+    align-items: end;
+    color: white;
+    font-weight: 100;
+    gap: 10px;
+}
+
+.boxtext1{
+    display: flex;
+    align-items: flex-end;
+}
+.number{
+    font-size: 20px;
+}
+.boxtext2 .carting{
+    margin-left: 10px;
+}
+.boxtext2 ul{
+    display: flex;
+
+}
+.boxtext2 ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.line{
+    width: 1px;
+    background: #1fff02;
+}
+
+    
