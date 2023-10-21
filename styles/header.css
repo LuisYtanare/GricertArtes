@@ -1,11 +1,11 @@
 .header{
-    background-color: #181818;
+    background: url(../img/background/background.jpg);
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-left: 30px;
     padding-right: 30px;
-    height: 120px;
+    height: 200px;
 }
 .logotipo {
     display: flex;
@@ -23,7 +23,9 @@ p{
     font-weight: 100;
 
 }
-
+.logotipo hr{
+    width: 100%;
+}
 .callme {
     display: flex;
     flex-direction: column;
@@ -52,9 +54,25 @@ p{
     margin-left: 10px;
     margin-right: 10px;
 }
+.boxtext2 a {
+    text-decoration: none;
+    color: greenyellow;
+}
 .line{
     width: 1px;
     background: #1fff02;
 }
 
-    
+
+@media screen and (max-width: 768px) {
+    .header{
+        height: 112px;
+        background-size: cover;       
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+    .callme{
+        display: none;
+    }
+}
